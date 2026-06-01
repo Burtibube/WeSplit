@@ -11,9 +11,39 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		FF7B8D7E2FCC7EA300543CAE /* WeSplit */ = {
+		FF7B8D7E2FCC7EA300543CAE /* main */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = WeSplit;
+			path = main;
+			sourceTree = "<group>";
+		};
+		FF85786E2FCDEF5800295A2A /* Models */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FF85786F2FCDEF5B00295A2A /* Views */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FF8578702FCDEF6400295A2A /* ViewModels */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		FF8578712FCDEF7000295A2A /* Helpers */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		FF8578722FCDEF8D00295A2A /* Protocols */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		FF8578752FCDEFC500295A2A /* Ressource */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Ressource;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,7 +62,13 @@
 		FF7B8D732FCC7EA300543CAE = {
 			isa = PBXGroup;
 			children = (
-				FF7B8D7E2FCC7EA300543CAE /* WeSplit */,
+				FF8578752FCDEFC500295A2A /* Ressource */,
+				FF8578722FCDEF8D00295A2A /* Protocols */,
+				FF8578712FCDEF7000295A2A /* Helpers */,
+				FF8578702FCDEF6400295A2A /* ViewModels */,
+				FF85786F2FCDEF5B00295A2A /* Views */,
+				FF85786E2FCDEF5800295A2A /* Models */,
+				FF7B8D7E2FCC7EA300543CAE /* main */,
 				FF7B8D7D2FCC7EA300543CAE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,7 +97,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				FF7B8D7E2FCC7EA300543CAE /* WeSplit */,
+				FF7B8D7E2FCC7EA300543CAE /* main */,
+				FF85786E2FCDEF5800295A2A /* Models */,
+				FF85786F2FCDEF5B00295A2A /* Views */,
+				FF8578702FCDEF6400295A2A /* ViewModels */,
+				FF8578712FCDEF7000295A2A /* Helpers */,
+				FF8578722FCDEF8D00295A2A /* Protocols */,
+				FF8578752FCDEFC500295A2A /* Ressource */,
 			);
 			name = WeSplit;
 			packageProductDependencies = (
